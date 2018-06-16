@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp">
+    android:layout_marginTop="10dp"
+    android:id="@+id/rl">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,7 +24,7 @@
             android:layout_toRightOf="@+id/imgHome"
             android:text="judul"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="17dp"
             android:layout_marginLeft="10dp"
             android:id="@+id/txtJudulHome"/>
 
@@ -46,5 +47,22 @@
             android:layout_marginLeft="10dp"
             android:id="@+id/txtTgl"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:id="@+id/txtRating"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:id="@+id/txtDescFULL"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:id="@+id/linkgambar"/>
     </RelativeLayout>
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
